@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP FINAL UX/UI</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,800;1,800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="title">
+            <a href="#">PORTFOLIO</a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="first_view">
+            <div class="text-contain">
+                <h1> JESÚS MÁXIMO SERRA </h1>
+                <p>Mi nombre es Jesús Máximo Serra, soy estudiante de la carrera Licenciatura en sistemas.</p>
+                <div class="more">
+                    <a href="#info">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <div class="second_view" id="info">
+            <div class="second_view-description">
+                <h2>SOBRE MI</h2>
+                <p> Nombre Completo: Jesús Máximo Serra</p>
+                <p>Fecha de Nacimiento: 12 de noviembre de 2004 (20 años)</p>
+                <p>Nacionalidad: Argentina</p>
+                <p>Descripción: Mi nombre es Jesús Máximo Serra, soy estudiante de la carrera Licenciatura en sistemas en UADER FCYT. Soy una persona muy interesada por el desarrollo Web, intentando siempre aprender sobre distintos lengujes de programación. </p>
+                <a href="#habilidades">Ver Habilidades</a>
+            </div>
+            <img class="road" src="img/yo.jpg">
+        </div>
+        <div class="third_view" id="habilidades">
+            <div class="profile__skills">
+                <h2>HABILIDADES</h2>
+                <ul>
+                    <li class="profile__skill">
+                        <div class="load-bar">
+                            <div class="load-bar__bar bar--80">90%</div>
+                        </div>
+                        <span class="profile__skill-name">HTML</span>
+                    </li>
+                    <li class="profile__skill">
+                        <div class="load-bar">
+                            <div class="load-bar__bar bar--60">80%</div>
+                        </div>
+                        <span class="profile__skill-name">CSS</span>
+                    </li>
+                    <li class="profile__skill">
+                        <div class="load-bar">
+                            <div class="load-bar__bar bar--30">30%</div>
+                        </div>
+                        <span class="profile__skill-name">JAVASCRIPT</span>
+                    </li>
+                    <li class="profile__skill">
+                        <div class="load-bar">
+                            <div class="load-bar__bar bar--5">95%</div>
+                        </div>
+                        <span class="profile__skill-name">INGLÉS</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="fourth_view">
+            <div class="fourth_view-info">
+                <h2>PROYECTOS</h2>
+                <p>ESTOS SON ALGUNOS DE MIS PROYECTOS REALIZADOS HASTA LA FECHA CON HTML Y CSS.</p>
+                <div class="destinations">
+                    <div class="filtro"></div>
+                    <div class="cards">
+                        <div class="proyecto1">
+                            <img src="img/PROYECTO1.PNG">
+                            <h3>Proyecto 1</h3>
+                            <p>SideBar</p>
+                        </div>
+                        <div class="proyecto2">
+                            <img src="img/proyecto2.PNG">
+                            <h3>Proyecto 2</h3>
+                            <p>Menu de Proyectos</p>
+                        </div>
+                        <div class="proyecto3">
+                            <img src="img/proyecto3.jpg">
+                            <h3>Proyecto 3</h3>
+                            <p>Pagina de cine</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="more">
+                    <a href="#contacto">Contáctame</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contacto" class="footer">
+        
+        <section class="form" id="form">
+            <h2 class="form__title">CONTACTO</h2>
+            <form class="form__form">
+                <div class="form__input-container">
+                    <label>Nombre
+                        <input type="text" placeholder="Name">
+                    </label>
+                </div>
+                <div class="form__input-container">
+                    <label>Apellido
+                        <input type="text" placeholder="Last Name">
+                    </label>
+                </div>
+                <div class="form__input-container">
+                    <label>E-Mail
+                        <input type="email" placeholder="mail@example.com">
+                    </label>
+                </div>
+                <div class="form__input-container">
+                    <label>Mensaje
+                        <textarea placeholder="Escribe aqui tu mensaje"></textarea>
+                    </label>
+                </div>
+                <div class="form__input-container enviar">
+                    <label>
+                        <input  type="submit" value="Enviar">
+                    </label>
+                </div>
+            </form>
+        </section>
+
+
+        <ul class="redes">
+            <li>
+                <a href="https://github.com/jesusmaximo1211" target="_blank" class="github"><img src="img/github.png" alt="GitHub"></a>
+            </li>
+            <li>
+                <a href="mailto:jesusmaximo1211@gmail.com" target="_blank"  class="mail"><img src="img/gmail.png" alt="Gmail"></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/jssrra1211/" target="_blank" class="instagram"><img src="img/instagram.png" alt="Instagram"></a>
+            </li>
+        </ul>
+        <p class="copyright">Copyright @2024 Jesus Serra All rights reserved.</p>
+    </footer>
+</body>
+</html>
